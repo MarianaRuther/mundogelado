@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    background: linear-gradient(to bottom,   #4dccff,#a0dde6);
+    color: #2a2d34;
+}
+
+.container{
+    position: relative;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+/*NAVBAR*/
+
+.navbar{
+    text-align: center;
+}
+
+.navbar-logo{
+    width: 100%;
+    height: 90px;
+}
+
+
+/*HEADER*/
+
+header{
+    text-align: center;
+   
+}
+
+header h1{
+    font-size: 80px;
+    color: white;
+    text-shadow: 4px 4px 0 black;
+    height: 50px;
+
+}
+
+header h3{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+    padding-bottom: 30px;
+    border-bottom: 3px dashed #0080b3;
+}
+
+
+/*SECTION 1*/
+
+
+.section-1{
+    padding-bottom: 40px;
+}
+
+.alaska{
+    background: url("../img/alaska2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px black;
+    height: 500px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+ }
+
+.alaska-tempo{
+    margin: 8px;
+}
+
+.alaska-valor{
+    margin: 8px;
+}
+
+
+.islandia{
+    background: url("../img/iceland.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -260px;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px black;
+    height: 500px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+ }
+
+.islandia-tempo{
+    margin: 8px;
+}
+
+.islandia-valor{
+    margin: 8px;
+}
+
+
+.siberia{
+    background: url("../img/siberia2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px black;
+    height: 500px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+ }
+
+.siberia-tempo{
+    margin: 8px;
+}
+
+.siberia-valor{
+    margin: 8px;
+}
+
+
+.texto1{
+    text-align: center;
+    margin-left: 900px;
+    padding-top: 130px;
+}
+
+.texto2{
+    text-align: center;
+    margin-left: 1000px;
+    padding-top: 0;
+}
+
+
+.texto3{
+    text-align: center;
+    margin-right: 900px;
+    padding-top: 0;
+}
+
+
+/*.section-1{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}*/
+
+
+.fotos-ajuste{
+    width: 50%;
+    height: 40%;
+    border-radius: 10%;
+    padding-top: 20px;
+}
+
+.section-1 h3{
+    font-size: 50px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.section-1 p{
+    font-size: 25px;
+}
+
+
+/*SECTION 2*/
+
+section h2{
+    color: #2a2d34;
+    padding-top: 30px;
+}
+
+section p{
+    font-size: 18px;
+}
+
+.section-2{
+    border: 3px dashed #0080b3;
+    width: 70%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+
+.section-2-form{
+    width: 45%; 
+}
+
+.checkbox{
+    padding-top: 10px;
+}
+
+.form-button{
+  margin-top: 20px;
+  text-align: center;
+  background-color: #30c5ff;
+  color: black;
+  border: 0;
+  padding: 20px;
+  font-size: 18px;
+  border: 2px solid #005bee;
+  cursor: pointer;
+  width: 20%;
+  font-family: 'Anton', sans-serif;
+  border-radius: 5%;
+}
+
+.form-button:hover{
+    background-color: deeppink;
+}
+
+/*FOOTER*/
+
+footer{
+    padding-top: 60px;
+}
+
+.footer-a {
+  color: #005bee;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-a:hover {
+  color: #5c946e;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

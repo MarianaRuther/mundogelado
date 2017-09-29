@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mundo Gelado</title>
+    <meta name="description" content="Website Mundo Gelado">
+    <meta name="author" content="Mariana Ruther">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anton');
+    </style>
+
+
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">
+                <img src="img/logo.png" alt="Logo do Mundo Gelado">
+            </div>
+
+            <header>
+                <h1>Mundo Gelado</h1>
+                <h3>A gente te leva para conhecer as maravilhas do gelo!</h3>
+            </header>
+
+            <main>
+                <section class="section-1">
+                    <div class="alaska">
+                        <div class="texto1">
+                            <h3>Alaska</h3>
+                            <p class="alaska-tempo">10 dias</p>
+                            <p class="alaska-valor">R$ 8.000 (all inclusive)</p>
+                        </div>
+                    </div>
+
+                    <div class="islandia">
+                        <div class="texto2">
+                            <h3>Islândia</h3>
+                            <p class="islandia-tempo">10 dias</p>
+                            <p class="islandia-valor">R$ 8.000 (all inclusive)</p>
+                        </div>
+                    </div>
+
+
+                    <div class="siberia">
+                        <div class="texto3">
+                            <h3>Sibéria</h3>
+                            <p class="siberia-tempo">10 dias</p>
+                            <p class="siberia-valor">R$ 8.000 (all inclusive)</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="section-2">
+                    <h2>Gostou? Não perca tempo! Vamos viajar!</h2>
+                    <p>Preencha o formulário abaixo com os seus dados e em breve entraremos em contato com você!</p>
+                    <div><input type="text" placeholder="Digite o seu Nome*" class="section-2-form"></div>
+                    <div><input type="text" placeholder="Digite o seu E-mail*" class="section-2-form"></div>
+
+                    <div class="checkbox">
+                        <label>Escolha o país de seu interesse:</label>
+                        <input type="checkbox" id="pais" name="alaska">
+                        <label for="pais">Alaska</label>
+
+                        <input type="checkbox" id="pais" name="islandia">
+                        <label for="pais">Islândia</label>
+
+                        <input type="checkbox" id="pais" name="siberia">
+                        <label for="pais">Sibéria</label>
+                    </div>
+
+                    <div class="button">
+                        <button onclick="sendData();" class="form-button">QUERO VIAJAR!</button>
+                    </div>
+
+                </section>
+        </div>
+        </main>
+
+        <footer>
+            <div class="container-footer">
+                <a href="mailto:mundo@gelado.com.br" alt="Enviar um e-mail" class="footer-a">E-mail: mundo@gelado.com.br</a>
+
+                <a href="+5511123456789" alt="Telefonar" class="footer-a">Telefone: (11) 12345-6789</a>
+            </div>
+        </footer>
